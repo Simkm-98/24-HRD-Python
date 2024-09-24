@@ -86,7 +86,7 @@ if all_data:
     df['사용량'] = df['사용량'].astype(float)
 
     # CSV 파일로 저장
-    csv_filename = 'seoul_average_energy_usage_2019_2023.csv'
+    csv_filename = 'seoul_average_energy_usage_2020_2023.csv'
     df.to_csv(csv_filename, index=False, encoding='utf-8-sig')
     print(f"Data saved to '{csv_filename}'")
 
